@@ -6,8 +6,11 @@ authors = [{name = "Mike", email = "mike@mikedoesdatascience.dev"}]
 dynamic = ["version"]
 
 dependencies = [
+    "bokeh",
+    "hvplot",
     "ipykernel",
     "jsonargparse",
+    "jupyter_bokeh",
     "matplotlib",
     "nba_api",
     "numpy",
