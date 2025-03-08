@@ -1,0 +1,34 @@
+[project]
+name = "nba"
+description = "A project for analyzing NBA scoring data"
+requires-python = ">= 3.12,<3.13"
+authors = [{name = "Mike", email = "mike@mikedoesdatascience.dev"}]
+dynamic = ["version"]
+
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "nba_api",
+    "numpy",
+    "pandas",
+    "seaborn",
+]
+
+[project.optional-dependencies]
+dev = ["hatch", "ruff"]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+path = "src/nba/_version.py"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/nba/_version.py"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "C90"]
+ignore = ["E501"]
