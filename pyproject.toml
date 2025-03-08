@@ -12,6 +12,7 @@ dependencies = [
     "numpy",
     "pandas",
     "seaborn",
+    "tqdm",
 ]
 
 [project.optional-dependencies]
