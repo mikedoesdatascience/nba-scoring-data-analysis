@@ -11,6 +11,7 @@ team_colors = {
     'GSW': '#ffc72c',
     'SFW': '#ffc72c',
     'HOU': '#CE1141',
+    'SDR': '#CE1141',
     'IND': '#002D62',
     'LAC': '#C8102E',
     'LAL': '#FDB927',
@@ -28,6 +29,8 @@ team_colors = {
     'PHX': '#1D1160',
     'POR': '#E03A3E',
     'SAC': '#5A2D81',
+    'CIN': '#5A2D81',
+    'KCK': '#5A2D81',
     'SAN': '#C4CED4',
     'SAS': '#C4CED4',
     'TOR': '#CE1141',
@@ -36,4 +39,5 @@ team_colors = {
     'UTH': '#002B5C',
     'WAS': '#002B5C',
     'BUF': '#ff6314',
+    'STL': '#E03A3E',
 }
