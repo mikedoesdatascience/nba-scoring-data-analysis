@@ -1,0 +1,6 @@
+# NBA Scoring Title - a Data Science Analysis
+
+![NBA Scoring Gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGdnN2h6NmNtZmp2dmExa20xMnJndXVqZWx4cmdqY3p1Njd1dG81diZlcD12MV9fbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7b1N9MKesp28kAU/giphy.gif)  
+"You play to win the game" - Herm Edwards
+
+In one of my favorite sports quotes/clips of all time, Herm Edwards passionately explained to a reporter that we all "play to win the game". I'm taking a little liberty with the context around that quote, but whether you're playing football or basketball, you win the game by scoring more points than your opponent. In reality, in team sports such as basketball, there is much more nuance in what contributes to victory; general managers get paid a lot of money to construct rosters complete with facilitaters and defenders in addition to high volume scorers, and let's not forget the importance of locker room morale. Let's put all that complexity to the side for now and focus just on NBA scoring - gettin' buckets. In particular, let's dive into the NBA scoring title over the past 75 years.
